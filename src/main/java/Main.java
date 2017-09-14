@@ -8,7 +8,6 @@ import main.java.enums.HelmetConstruction;
 import main.java.enums.LanceType;
 import main.java.enums.Material;
 import main.java.enums.ShieldShape;
-import main.java.services.KnightService;;
 
 public class Main {
     public static void main(String[] args) {
