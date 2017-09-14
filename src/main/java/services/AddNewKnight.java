@@ -13,7 +13,6 @@ public class AddNewKnight {
 	}
 
 	public Knight addKnight() {
-		return new Locomotive(fuel);
 	}
 	
 	
