@@ -15,11 +15,7 @@ Ammunition {
         this.material = material;
     }
 
-    public Ammunition() {
-        this.cost = 0;
-        this.weight = 0;
-        this.material = Material.STEEL;
-    }
+    public Ammunition() {}
 
     public int getCost() {
         return cost;

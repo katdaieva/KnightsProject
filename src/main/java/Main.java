@@ -8,6 +8,7 @@ import main.java.enums.HelmetConstruction;
 import main.java.enums.LanceType;
 import main.java.enums.Material;
 import main.java.enums.ShieldShape;
+import main.java.services.KnightService;;
 
 public class Main {
     public static void main(String[] args) {
@@ -17,13 +18,10 @@ public class Main {
         Lance lance = new Lance(2000,500, Material.STEEL, LanceType.FLAMBERGE);
         Shield shield = new Shield(1500,950, Material.IRON, ShieldShape.TRIANGULAR);
 
-        Knight knight = new Knight(0, 0, helmet, lance, shield);
+        Knight knight = new Knight(helmet, lance, shield);
 
         knights.add(knight);
         
-        knight.totalCost(knight);
-        knight.totalWeight(knight);
-
         System.out.println(knight.toString());
 
     }
